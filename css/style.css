@@ -1,0 +1,78 @@
+body{
+    background: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+    background-color: rgba(236, 153, 132, 0.336);
+    color: white;
+    animation: portada;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes portada {
+    0%{background-color: rgba(236, 153, 132, 0.336);}
+    50%{background-color:rgb(235, 101, 67)}
+    100%{background-color: rgba(236, 153, 132, 0.336);}
+
+}
+
+.catarlogo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    animation: clipMe;
+}
+
+
+
+
+
+.abifoto{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+ 
+.imgRedonda {
+    align-items: center;
+    width:100px;
+    height:100px;
+    border-radius:150px;
+    border:5px solid rgb(215, 98, 238);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+ 
+.icono{
+    align-items: center;
+    width:50px;
+    height:50px;
+    border-radius:150px;
+    margin-left: auto;
+    margin-right: auto;
+ }
