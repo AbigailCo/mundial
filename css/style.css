@@ -136,3 +136,53 @@ img{
     justify-content: left;
     text-align: left;
 }
+
+.container{
+    background: url("../img/fondopag.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    color: rgba(138, 2, 172, 0.932);
+    margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font: italic bold 4em Georgia, Serif;
+  text-shadow: -4px 3px 0 #f1b306, -14px 7px 0 #0b8076;
+}
+
+
+.foto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30PX;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(../img/abi.jpg);
+}
+
+.row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.col-9{
+    margin: auto;
+  text-align: center;
+  font: italic bold 2em arial;
+  text-shadow: 2px 2px 2px rgb(17, 189, 174);
+}
+
+.col-4{
+    margin: auto;
+  text-align: left;
+  font: italic bold 1em arial, Serif;
+}
