@@ -1,8 +1,14 @@
 body{
-    background: url("../img/fondo1.jpg");
+    background: url("../img/fondopag.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+.contenedor{
+    background-size: cover;
+    text-align: center;
+    background-color: #0b8076;
+    margin: ;
 }
 img{
     max-width: 100%;
@@ -130,27 +136,23 @@ img{
     margin-right: auto;
 }
 
-
-.cel{
-    display: flex;
-    justify-content: left;
-    text-align: left;
-}
-
-.container{
-    background: url("../img/fondopag.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
 h1{
     color: rgba(138, 2, 172, 0.932);
     margin: 0 auto;
-  text-align: center;
-  font-weight: 700;
-  font: italic bold 4em Georgia, Serif;
-  text-shadow: -4px 3px 0 #f1b306, -14px 7px 0 #0b8076;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 4em Georgia, Serif;
+    text-shadow: -4px 3px 0 #f1b306, -14px 7px 0 #0b8076;
+}
+
+h2{
+    color: rgba(2, 147, 172, 0.932);
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 4em Georgia, Serif;
+    text-shadow: -4px 3px 0 #f1b306, -14px 7px 0 #82d4ce;
+
 }
 
 
@@ -184,5 +186,13 @@ h1{
 .col-4{
     margin: auto;
   text-align: left;
-  font: italic bold 1em arial, Serif;
+  font: 1em arial, Serif;
+  background-color: #f1b20688;
+  border-radius: 10px;
+  border: 4px double #09878b;
+}
+
+.d-block{
+    max-width: 100%;
+    max-height: 100%;
 }
