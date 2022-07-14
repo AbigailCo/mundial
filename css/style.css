@@ -7,27 +7,26 @@ body{
 .contenedor{
     background-size: cover;
     text-align: center;
-    background-color: #0b8076;
+    background-color: #660e0eb7;
     margin: ;
 }
 img{
     max-width: 100%;
-    max-height: 100%;
 }
 
 .logo{
     background-color: rgba(236, 153, 132, 0.336);
     color: white;
     animation: portada;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-delay: 3s;
-    animation-iteration-count: infinite;
+    
     
 }
 
 @keyframes portada {
     0%{background-color: rgba(236, 153, 132, 0.336);}
-    50%{background-color:rgb(235, 101, 67)}
+    50%{background-color:rgb(136, 2, 20)}
     100%{background-color: rgba(236, 153, 132, 0.336);}
 
 }
@@ -135,6 +134,15 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+.icono:hover {
+    box-shadow: 0 0 40px 1px rgb(250, 8, 0);
+    transition: all 0.3s ease-in-out;
+    color: rgb(157, 243, 157);
+    background-color: rgb(246, 252, 246);
+    animation-play-state: running;
+    animation-play-state: paused;
+    
+}
 
 h1{
     color: rgba(138, 2, 172, 0.932);
@@ -146,19 +154,25 @@ h1{
 }
 
 h2{
-    color: rgba(2, 147, 172, 0.932);
+    color: rgba(0, 0, 0, 0.932);
     margin: 0 auto;
     text-align: center;
     font-weight: 700;
     font: italic bold 4em Georgia, Serif;
-    text-shadow: -4px 3px 0 #f1b306, -14px 7px 0 #82d4ce;
+    text-shadow: -4px 3px 0 #6d060b, -14px 7px 0 #555555;
 
 }
-
+p{
+    font-family: fantasy;
+    font-size: 30px;
+    margin-top: 20px;
+}
 
 .foto{
     margin-left: auto;
     margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
     margin-top: 30PX;
     height: auto;
     width: auto;
@@ -196,3 +210,72 @@ h2{
     max-width: 100%;
     max-height: 100%;
 }
+
+.lo{
+    border-radius: 10px;
+}
+.lo:hover {
+    box-shadow: 0 0 40px 1px rgb(6, 153, 153);
+    transition: all 0.3s ease-in-out;
+    color: rgb(157, 243, 157);
+    background-color: rgb(246, 252, 246);
+    animation-play-state: running;
+    animation-play-state: paused;
+    
+}
+
+.menu {
+    background-color: rgba(236, 153, 132, 0.336);
+    color: white;
+    animation: letras;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    
+}
+
+@keyframes letras {
+    0%{background-color: rgba(236, 153, 132, 0.336);}
+    50%{background-color:rgb(71, 16, 23)}
+    100%{background-color: rgba(236, 153, 132, 0.336);}
+
+}
+
+.boton{
+    text-decoration:none;
+    max-width: 100px;
+    align-items: center;
+    margin: auto;
+    animation-name: boton;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   border-bottom: 5px dashed #eeb108de;
+   border-left: 5px dashed #eeb108de;
+}
+.letras{
+    text-decoration:none;
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+}
+@keyframes boton {
+    0%{
+        background-color: rgba(252, 166, 7, 0.63);
+    }
+    15%{
+        background-color: rgba(153, 17, 206, 0.5);
+    }
+    50%{
+        background-color: rgba(15, 216, 139, 0.473);
+    }
+    75%{
+        background-color: rgba(243, 12, 185, 0.432);
+    }
+    100%{
+        background-color: rgba(252, 166, 7, 0.63);
+    }
+  }
